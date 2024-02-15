@@ -1,5 +1,3 @@
-text = input()
-shift = 3
 def caesar(message,offset):
    alphabet = 'abcdefghijklmnopqrstuvwxyz'
    encrypted_text = ''
@@ -12,3 +10,7 @@ def caesar(message,offset):
          encrypted_text += alphabet[new_index]
    print('plain text:', message)
    print('encrypted text:', encrypted_text)
+
+text = input()
+shift = 3
+caesar(text,shift)
