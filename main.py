@@ -2,4 +2,5 @@ text = input()
 shift = 3
 alphabet = 'abcdefghijklmnopqrstuvwxyz'
 index = alphabet.find(text[0].lower())
-shifted = alphabet[index + shift]
+for i in text:
+   pass
